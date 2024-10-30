@@ -30,7 +30,8 @@
     "template-curly-spacing": ["error", "never"],
     "no-unused-private-class-members": ["error"],
     "no-invalid-this": ["error"],
-    "class-methods-use-this": ["warn"],
+    // "class-methods-use-this": ["warn"],
+    "class-methods-use-this": ["off"], //отключает проверку this в классах
     "handle-callback-err": ["error", "^err"],
     "no-console": ["off"],
     "no-constant-condition": ["error", { "checkLoops": false }],
